@@ -5,7 +5,7 @@ NT's GG API is an API for GameGuardian to make GameGuardian Scripts easier. It c
 * Name: NT's GG API
 * Version: 2.0
 * Author: NeverTrolls (nevertrollsh)
-* Credits: Deficas (for freeze function)
+* Credits: Thanks to Deficas, freeze Function is possible.
 
 ## How to use?
 To use this API, you'd need to put this at the top of your code:
@@ -40,6 +40,7 @@ The API that is going to be used mainly and includes GG function name shortening
 |----------|-------|--------|
 | search(value, type) | Searches a value under a type. | value: string, type: int |
 | edit(value, type) | Edits the results to a value under a type. | value: string, type: int |
+| freeze(resultNum) | Freezes all the results. Make sure to use edit function before this. | resultNum: number |
 
 ## Database API
 These functions are not implemented yet due to some issues. Do not use these in your scripts until a proper fix comes.
