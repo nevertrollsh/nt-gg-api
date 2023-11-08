@@ -60,3 +60,5 @@ end
 function db.get(v)
  return v
 end
+
+db.edit = db.save
