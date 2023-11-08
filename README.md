@@ -43,7 +43,7 @@ The API that is going to be used mainly and includes GG function name shortening
 | freeze(resultNum) | Freezes all the results. Make sure to use edit function before this. | resultNum: number |
 
 ## Database API
-These functions are not implemented yet due to some issues. Do not use these in your scripts until a proper fix comes.
+Database is fully functional. You can use db.save to save a variable and retain it using db.get or the variable itself.
 | Function | Usage | Params |
 |----------|-------|--------|
 | db.save(variable, value) | Saves a variable to the database. | variable: string, value: string |
