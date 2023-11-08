@@ -52,3 +52,11 @@ function db.save(varName, value)
         print("Failed to open the file for reading.")
     end
 end
+
+function db.load()
+ dofile(db.storage)
+end
+
+function db.get(v)
+ return v
+end
