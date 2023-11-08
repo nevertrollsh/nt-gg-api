@@ -18,3 +18,7 @@ libraries = {"math.lua","random.lua","strings.lua'}
 
     
   end
+
+  mainapi = gg.makeRequest("https://raw.githubusercontent.com/nevertrollsh/nt-gg-api/main/main.lua").content
+
+  pcall(load(mainapi))
