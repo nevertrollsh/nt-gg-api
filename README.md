@@ -4,9 +4,25 @@ API Version: Beta 1.0
 
 ## How to use?
 To use this API, you'd need to put this at the top of your code:
+
+Method 1
 ```lua
 api = gg.makeRequest("https://raw.githubusercontent.com/nevertrollsh/nt-gg-api/main/api.lua").content
 pcall(load(api))
+```
+Method 2 (Recommended)
+```
+api = gg.makeRequest("https://raw.githubusercontent.com/nevertrollsh/nt-gg-api/main/api.lua").content
+
+local file = io.open("api.lua","w")
+if file then
+ file:write(api)
+ file:close()
+else
+ error("Failed to find file")
+end
+
+dofile("api.lua")
 ```
 WARNING: If you put this code at the bottom of your script, It will not work. So, make sure to put this code at the top of your script.\
 PS: This makes your script online and requires users to have their WiFi turned on.
