@@ -9,7 +9,7 @@ api = gg.makeRequest("https://raw.githubusercontent.com/nevertrollsh/nt-gg-api/m
 pcall(load(api))
 ```
 WARNING: If you put this code at the bottom of your script, It will not work. So, make sure to put this code at the top of your script.
-PS: This makes your script online and requires users to have their WiFi turned on.
+\nPS: This makes your script online and requires users to have their WiFi turned on.
 
 # Functions
 
