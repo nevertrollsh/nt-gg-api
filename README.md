@@ -12,7 +12,7 @@ The API that is going to be used mainly and includes GG function name shortening
 | menu(options, type, description(optional)) | Creates a menu. Scroll down to view further indormation about this. | options: table, type: int(1, or 2), description: string |
 
 ## Database API
-| Function | Usage |
-|----------|-------|
-| db.save(variable, value) | Saves a variable to the database. |
-| db.get(variable) | Gets a variable from the database. |
+| Function | Usage | Params |
+|----------|-------|--------|
+| db.save(variable, value) | Saves a variable to the database. | variable: string, value: string |
+| db.get(variable) | Gets a variable from the database. | variable: string |
