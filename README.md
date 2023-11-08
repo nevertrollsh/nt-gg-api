@@ -1,5 +1,6 @@
 # NT's GG API
 NT's GG API is an API for GameGuardian to make GameGuardian Scripts easier. It comes with various functions and a database.
+API Version: Beta 1.0
 
 ## How to use?
 To use this API, you'd need to put this at the top of your code:
