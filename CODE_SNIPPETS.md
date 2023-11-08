@@ -17,4 +17,11 @@ search("10", float) --- Searches 10 as float.
 edit("9999", float) --- Edits it as 9999 float. Results is set to be max 100 by default. It can be changed though.
 ```
 
+freeze(resultsNum)
+```
+--- This whole code searches the number 15 as Float, edits it to 200 and freezes the 100 first values.
 
+search("15", float)
+edit("100", float)
+freeze(100) 
+```
