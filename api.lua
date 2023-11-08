@@ -1,6 +1,6 @@
 nt = {}
 
-libraries = {"math.lua","random.lua","strings.lua'}
+libraries = {"math.lua","random.lua","strings.lua"}
 
   for i,v in pairs(libraries) do
     
