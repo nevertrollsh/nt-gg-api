@@ -35,7 +35,7 @@ end
 
 function menu(options, type, description)
 
-  if isArr(options) then
+  if isArr(options) == true then
 
 
   
