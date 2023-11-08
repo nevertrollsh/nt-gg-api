@@ -1,6 +1,7 @@
 nt = {}
 
 libraries = {"math.lua","random.lua","strings.lua"}
+nt_version = "1.0"
 
   for i,v in pairs(libraries) do
     
