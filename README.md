@@ -10,8 +10,8 @@ Method 1
 api = gg.makeRequest("https://raw.githubusercontent.com/nevertrollsh/nt-gg-api/main/api.lua").content
 pcall(load(api))
 ```
-Method 2 (Recommended)
-```
+Method 2 (Not Recommended)
+```lua
 api = gg.makeRequest("https://raw.githubusercontent.com/nevertrollsh/nt-gg-api/main/api.lua").content
 
 local file = io.open("api.lua","w")
