@@ -20,3 +20,13 @@ function edit(v, t)
  gg.getResults(default_results)
   gg.searchNumber(v, t)
 end
+
+function freeze(n)
+ if type(n) ~= "number" then error("In freeze(), there should be a number like this: freeze(10)") end
+  fvs = gg.getResults(n)
+  for i,v in pairs(fvs) do
+gg.freeze = true
+  end
+
+  gg.addListItems(fvs)
+end
