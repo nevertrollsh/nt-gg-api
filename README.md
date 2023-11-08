@@ -33,6 +33,7 @@ WARNING: If you put this code at the bottom of your script, It will not work. So
 PS: This makes your script online and requires users to have their WiFi turned on.
 
 # Functions
+These are the functions. If you want to learn to use them correctly, you may want to see some [Code Snippets](./CODE_SNIPPETS.md)
 
 ## Main API
 The API that is going to be used mainly and includes GG function name shortening.
