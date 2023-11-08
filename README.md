@@ -1,6 +1,15 @@
 # NT's GG API
 NT's GG API is an API for GameGuardian to make GameGuardian Scripts easier. It comes with various functions and a database.
 
+## How to use?
+To use this API, you'd need to put this at the top of your code:
+```lua
+api = gg.makeRequest("https://raw.githubusercontent.com/nevertrollsh/nt-gg-api/main/api.lua").content
+pcall(load(api))
+```
+WARNING: If you put this code at the bottom of your script, It will not work. So, make sure to put this code at the top of your script.
+PS: This makes your script online and requires users to have their WiFi turned on.
+
 # Functions
 
 ## Main API
