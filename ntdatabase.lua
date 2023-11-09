@@ -57,4 +57,15 @@ function db.load()
  dofile(db.storage)
 end
 
+function db.info()
+    print("db.info() function is under development")
+ os.exit()
+end
+
+
+
+
+
+    
+
 db.edit = db.save
