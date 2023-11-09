@@ -7,9 +7,9 @@ NT's GG API is an API for GameGuardian to make GameGuardian Scripts easier. It c
 * Author: NeverTrolls (nevertrollsh)
 * Credits: Thanks to Deficas, freeze Function is possible.
 
-## New features in 3.0:
-We've added fancytoasts which are toasts but fancier. We've made improvements to the database. We've also made the API faster.
-
+## Version 3.0
+Version 3.0 adds database improvements and 
+FancyToasts (a new library).
 ## How to use?
 To use this API, you'd need to put this at the top of your code:
 
@@ -60,3 +60,12 @@ db.save("variable","The variable's value.")
 db.load()
 print(db.get(variable))
 ```
+
+### Libraries/Packages
+Libraries and Packages that you can import using the import function.
+| Lib/Pkg | Usage |
+|---------|-------|
+| ntdatabase | NTDatabase is used to store variables in a file and use them later anytime. You can retain the variable's original value even if the script is restarted. |
+| patches | Patches allows you to hex patch offsets in GameGuardian. It can make your script significantly faster. |
+| random | Random is a library that adds many random functions including random.text, random.string and more! |
+| fancytoasts | Fancytoasts attempts to make GameGuardian's toasts fancy. |
