@@ -58,7 +58,18 @@ function db.load()
 end
 
 function db.get(v)
- return v
+    local file = io.open("database.lua", "r")
+    
+    if file then
+        local content = file:read("*all")
+        io.close(file)
+        local pattern = v .. "%s*=%s*\"([^\"]+)\""
+        local result = string.match(content, pattern)
+
+        return result or "Variable not found"
+    else
+        return "Error opening file"
+    end
 end
 
 db.edit = db.save
