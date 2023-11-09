@@ -62,10 +62,8 @@ function db.info()
  os.exit()
 end
 
-
-
-
-
-    
+function db.get(v)
+ return _G[v]
+end
 
 db.edit = db.save
