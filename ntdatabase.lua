@@ -60,7 +60,7 @@ end
 db.edit = db.save
 
 function db.get(v)
-    local chunk, errorMsg = loadfile("database.dat")
+    local chunk, errorMsg = dofile(db.storage)
 
     if chunk then
         local result = chunk()
