@@ -58,14 +58,3 @@ function db.load()
 end
 
 db.edit = db.save
-
-function db.get(v)
-    local chunk, errorMsg = dofile(db.storage)
-
-    if chunk then
-        local result = chunk()
-        return result[v] or "Variable not found"
-    else
-        return "Error loading file: " .. errorMsg
-    end
-end
