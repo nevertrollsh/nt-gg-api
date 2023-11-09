@@ -3,9 +3,12 @@ NT's GG API is an API for GameGuardian to make GameGuardian Scripts easier. It c
 
 ## API Information
 * Name: NT's GG API
-* Version: 2.0
+* Version: 3.0
 * Author: NeverTrolls (nevertrollsh)
 * Credits: Thanks to Deficas, freeze Function is possible.
+
+## New features in 3.0:
+We've added fancytoasts which are toasts but fancier. We've made improvements to the database. We've also made the API faster.
 
 ## How to use?
 To use this API, you'd need to put this at the top of your code:
