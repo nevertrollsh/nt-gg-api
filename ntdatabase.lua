@@ -60,6 +60,12 @@ end
 db.edit = db.save
 
 function db.get(v)
-    local database = dofile(db.storage)
-    return database[v] or nil
+    local chunk, errorMsg = loadfile("database.lua")
+
+    if chunk then
+        local result = chunk()
+        return result[v] or "Variable not found"
+    else
+        return "Error loading file: " .. errorMsg
+    end
 end
