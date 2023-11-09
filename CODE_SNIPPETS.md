@@ -24,7 +24,7 @@ freeze(resultsNum)
 search("15", float)
 edit("100", float)
 freeze(100) 
-```\
+```
 
 
 
