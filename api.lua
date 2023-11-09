@@ -1,5 +1,5 @@
 nt = {}
-nt_version = "2.0"
+nt_version = "3.0"
 mainapi = gg.makeRequest("https://raw.githubusercontent.com/nevertrollsh/nt-gg-api/main/main.lua").content
 pcall(load(mainapi))
 
