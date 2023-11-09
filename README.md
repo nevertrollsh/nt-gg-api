@@ -43,10 +43,17 @@ The API that is going to be used mainly and includes GG function name shortening
 | edit(value, type) | Edits the results to a value under a type. | value: string, type: int |
 | freeze(resultNum) | Freezes all the results. Make sure to use edit function before this. | resultNum: number |
 
-## Database API
-Database is fully functional. You can use db.save to save a variable and retain it using db.get or the variable itself.
-| Function | Usage | Params |
-|----------|-------|--------|
-| db.save(variable, value) | Saves a variable to the database. | variable: string, value: string |
-| db.edit(variable, value) | Edits a variable in the database. | variable: string, value: string |
-| db.get(variable) | Gets a variable from the database. | variable: string |
+## Importing Libraries/Packages
+You can now import libraries and packages using the import(pkg) function. It was not mentioned in the Main API because it is not the part of the Main API.\\
+
+Here is an example of loading the ntdatabase package using the import function.
+```lua
+--- ntdatabase is no longer a part of the API, you can still use it by importing it though!
+--- To get the list of all the packages/libraries that you can import, you can use import(-1) to view all the packages/libraries.
+
+import("ntdatabase") --- This imports ntdatabase.
+
+db.save("variable","The variable's value.")
+db.load()
+print(db.get(variable))
+```
