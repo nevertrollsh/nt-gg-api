@@ -25,3 +25,27 @@ search("15", float)
 edit("100", float)
 freeze(100) 
 ```
+
+## NTDatabase Functions
+
+One Time Password Script:
+```lua
+import("ntdatabase") --- This imports the package called ntdatabase which is required.
+
+function HOME()
+ gg.alert("Welcome to the Script! You entered the correct password.")
+end
+
+db.load()
+if db.get("pass") == "1234" then
+HOME()
+else
+pw = gg.prompt({"Enter Password:"})
+if pw[1] == "1234" then
+db.save("pass","1234")
+else
+gg.alert("Wrong Password!")
+os.exit()
+end
+end
+```
