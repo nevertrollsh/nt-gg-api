@@ -12,19 +12,19 @@ end
 function import(pkg)
  for i,v in pairs(libs) do
  
- if v == "ntdatabase" then
+ if pkg == "ntdatabase" then
  loadContent("https://raw.githubusercontent.com/nevertrollsh/nt-gg-api/main/ntdatabase.lua")
- print("Loaded package: 'ntdatabase'\n")
+ 
  end
  
- if v == "random" then
+ if pkg == "random" then
   
-  print("Library random was not loaded due to undeveloped code.")
+  
  end
  
- if v == "patches" then
+ if pkg == "patches" then
  loadContent("https://raw.githubusercontent.com/nevertrollsh/nt-gg-api/main/patches.lua")
- print("Loaded package: 'patches'\n")
+ 
  end
  
  
