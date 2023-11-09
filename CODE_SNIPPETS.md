@@ -2,7 +2,7 @@
 These are examples of how each function of the API works.
 [Back to README.md](./README.md)
 
-## Main Functions
+## Main API's Codes
 
 search(value, type)
 ```lua
@@ -26,7 +26,7 @@ edit("100", float)
 freeze(100) 
 ```
 
-## NTDatabase Functions
+## NTDatabase Codes
 
 One Time Password Script:
 ```lua
