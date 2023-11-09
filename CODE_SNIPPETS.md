@@ -26,6 +26,8 @@ edit("100", float)
 freeze(100) 
 ```
 
+
+
 ## NTDatabase Codes
 
 One Time Password Script:
