@@ -44,7 +44,7 @@ The API that is going to be used mainly and includes GG function name shortening
 | freeze(resultNum) | Freezes all the results. Make sure to use edit function before this. | resultNum: number |
 
 ## Import
-You can now import libraries and packages using the import(pkg) function. It was not mentioned in the Main API because it is not the part of the Main API.\
+You can now import libraries and packages using the import(pkg) function. It was not mentioned in the Main API because it is not the part of the Main API.
 
 Here is an example of loading the ntdatabase package using the import function.
 ```lua
