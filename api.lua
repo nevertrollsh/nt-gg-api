@@ -10,7 +10,7 @@ function loadContent(cont)
 end
 
 function import(pkg)
- for i,v in pairs(libs) do
+ 
  
  if pkg == "ntdatabase" then
  loadContent("https://raw.githubusercontent.com/nevertrollsh/nt-gg-api/main/ntdatabase.lua")
@@ -30,6 +30,6 @@ function import(pkg)
  
  
  
- end
+ 
 end
   
