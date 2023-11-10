@@ -1,4 +1,4 @@
-function patch(lib, offset,hex)
+function hexpatch(lib, offset,hex)
 
 gg.setVisible(false)
 local targetAddr = 0
