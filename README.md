@@ -3,12 +3,14 @@ NT's GG API is an API for GameGuardian to make GameGuardian Scripts easier. It c
 
 ## API Information
 * Name: NT's GG API
-* Version: 3.5
+* Version: 4.0
 * Author: NeverTrolls (nevertrollsh)
 * Credits: Thanks to Deficas, freeze Function is possible.
 
-## Version 3.5
-Version 3.0 adds a new library called `fancymenus` to imports.
+## Version 4.0
+This version adds two libraries called `fancymenus` and `patcher`. The new library, `patcher` is similar to our package `patches`.
+
+
 ## How to use?
 To use this API, you'd need to put this at the top of your code:
 
@@ -66,6 +68,7 @@ Libraries and Packages that you can import using the import function.
 |---------|-------|
 | ntdatabase | NTDatabase is used to store variables in a file and use them later anytime. You can retain the variable's original value even if the script is restarted. |
 | patches | Patches allows you to hex patch offsets in GameGuardian. It can make your script significantly faster. |
+| patcher | Patcher is an user-made library similar to patches. |
 | random | Random is a library that adds many random functions including random.text, random.string and more! |
 | fancytoasts | FancyToasts attempts to make GameGuardian's toasts fancy. |
 | fancymenus | FancyMenus makes GameGuardian's menus better and good looking. |
