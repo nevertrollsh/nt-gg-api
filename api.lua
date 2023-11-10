@@ -4,7 +4,7 @@ mainapi = gg.makeRequest("https://raw.githubusercontent.com/nevertrollsh/nt-gg-a
 pcall(load(mainapi))
 
 
-libs = {"ntdatabase","random","patches","fancymenus","fancytoasts"}
+libs = {"ntdatabase","random","patcher","patches","fancymenus","fancytoasts"}
 
 function loadContent(cont)
  local loading = gg.makeRequest(cont).content
@@ -33,6 +33,10 @@ function import(pkg)
 
  if pkg == "fancytoasts" then
  loadContent("https://raw.githubusercontent.com/nevertrollsh/nt-gg-api/main/fancytoasts.lua")
+ end
+
+ if pkg == "patcher" then
+ loadContent("https://pastebin.com/raw/wz1sfmWF")
  end
  
  
