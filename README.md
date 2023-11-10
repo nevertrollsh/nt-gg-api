@@ -68,4 +68,4 @@ Libraries and Packages that you can import using the import function.
 | ntdatabase | NTDatabase is used to store variables in a file and use them later anytime. You can retain the variable's original value even if the script is restarted. |
 | patches | Patches allows you to hex patch offsets in GameGuardian. It can make your script significantly faster. |
 | random | Random is a library that adds many random functions including random.text, random.string and more! |
-| fancytoasts | Fancytoasts attempts to make GameGuardian's toasts fancy. |
+| fancytoasts | FancyToasts attempts to make GameGuardian's toasts fancy. |
