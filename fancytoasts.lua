@@ -1,7 +1,7 @@
 ft = {
  name = "Fancy Toasts",
  version = "1.0",
- functions = "3"
+ functions = "7"
 }
 
 function ft.percent(a,b)
