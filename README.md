@@ -9,6 +9,7 @@ NT's GG API is an API for GameGuardian to make GameGuardian Scripts easier. It c
 
 ## Version 4.0
 This version adds two libraries called `fancymenus` and `patcher`. The new library, `patcher` is similar to our package `patches`.
+Added/Fixed the library called `random`.
 
 
 ## How to use?
@@ -72,3 +73,4 @@ Libraries and Packages that you can import using the import function.
 | random | Random is a library that adds many random functions including random.text, random.string and more! |
 | fancytoasts | FancyToasts attempts to make GameGuardian's toasts fancy. |
 | fancymenus | FancyMenus makes GameGuardian's menus better and good looking. |
+| random | A bunch of functions related to randomness. |
